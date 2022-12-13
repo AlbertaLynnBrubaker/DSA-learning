@@ -94,8 +94,3 @@ class ArrayStack {
     return false
   }
 }
-
-const stacky = new ArrayStack()
-console.log(stacky.push(1))
-console.log(stacky.push(2))
-console.log(stacky.pop())
