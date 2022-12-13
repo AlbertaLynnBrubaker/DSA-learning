@@ -1,3 +1,4 @@
+// Stack as a Linked List
 class Node {
   constructor(value) {
     this.value = value
@@ -53,10 +54,48 @@ class Stack {
   }
 }
 
-const myStack = new Stack()
-myStack.push("google")
-myStack.push("discord")
-myStack.push("twitter")
-console.log(myStack)
-myStack.pop()
-console.log(myStack)
+// const myStack = new Stack()
+// myStack.push("google")
+// myStack.push("discord")
+// myStack.push("twitter")
+// console.log(myStack)
+// myStack.pop()
+// console.log(myStack)
+
+// Stack as an Array
+
+class ArrayStack {
+  constructor() {
+    this.array = []
+    this.length = 0
+  }
+
+  peek() {
+    return this.array[this.length - 1]
+  }
+
+  push(element) {
+    this.array.push(element)
+    this.length++
+    return this
+  }
+
+  pop() {
+    const unwantedElement = this.array[this.length -1]
+    this.array.pop()
+    this.length--
+    return unwantedElement
+  }
+
+  isEmpty() {
+    if(this.length === 0) {
+      return true
+    }
+    return false
+  }
+}
+
+const stacky = new ArrayStack()
+console.log(stacky.push(1))
+console.log(stacky.push(2))
+console.log(stacky.pop())

@@ -4,7 +4,7 @@
 
 If we visit several websites, we add each website to the Stack in the order that we visit them (push). If we then want to navigate back, we remove the most recent site visited from the Stack (pop).
 
-FILO
+LIFO
 
 discover-aliebrubaker.net <--- top of the Stack. To go back we have to remove this from the Stack
 twitter.com
