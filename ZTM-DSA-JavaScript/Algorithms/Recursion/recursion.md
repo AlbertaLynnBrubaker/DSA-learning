@@ -32,3 +32,12 @@ Save your base case into a variable or call ```return inception()``` on the recu
 1. Identify the base case
 2. Identify the recursive case
 3. Get closer and closer and return when needed. Usually you have 2 returns. One for the base case and one for the recursive case.
+
+## When to use Recursion
+
+Every time we are using a tree or converting something into a tree
+  1. A problem can be divided into a number of subproblems that are smaller instances of the same problem
+
+  2. Each instance of the subproblem is identical in nature
+
+  3. The solutions of each subproblem can be combined to solve the entire problem
