@@ -33,3 +33,13 @@ Then it does it again until the second smallest in index 1, etc... until the lis
 ## Insertion Sort
 
 Insertion sort is especially useful when you are pretty sure the list is almost sorted. Also performs really well in small datasets.
+
+
+## Divide and Conquer and O(n log n)
+
+## Merge Sort
+
+Effectively, a merge sort takes all the elements in a list and divides them in half again and again until each node is down to two elements, then it compares each of these elements. Then each pair sort against the pair next to them to become four sorted elements. Then four to eight. Eight to sixteen. Etc... until all the elements are sorted.
+
+## Quick Sort
+
