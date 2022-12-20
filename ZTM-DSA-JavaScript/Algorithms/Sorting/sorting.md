@@ -43,3 +43,22 @@ Effectively, a merge sort takes all the elements in a list and divides them in h
 
 ## Quick Sort
 
+Just like merge sort, quick sort uses a divide and conquer approach and has a time complexity of O(n log n). Quick sort breaks lists into smaller lists and uses a pivoting technique on the two halves of the list. Everything higher than the pivot goes right, the pivot moves left and the left-of-pivot moves to the same index that the original compare element lives.
+
+IF YOU CAN'T GUARANTEE THAT THE DATA WILL BE GOOD OR YOU CAN'T REALLY PICK A GOOD PIVOT, you should avoid using quick sort and maybe pick a different sort sort.
+
+## So when do I use which sort?
+
+Insertion Sort - if your inputs are really small or your input is already mostly sorted. The best case time is O(n) and the space is O(1)
+
+Bubble Sort - only really used for educational purposes. Not very efficient
+
+Selection Sort - most likely educational as well
+
+Merge Sort - merge sort is really good for the way it divides and conquers, giving us at least part of our time is log n. Merge sort does have a space O(n) so it is not great on space.
+
+Quick Sort - It has a better space and very close time to merge sort, but if you can't pick your pivot the worst case is O(n^2)
+
+Heap Sort - on paper, it appears better than quick sort or merge sort, but on average quick sort will be faster. So unless you are very concerned about space or are picking your pivot blind, quick sort is a faster sorting algo
+
+## 
