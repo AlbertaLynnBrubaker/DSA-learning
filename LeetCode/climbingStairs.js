@@ -1,4 +1,3 @@
-const { c } = require('./helper/consoleLogHelper')
 
 // var climbStairs = function(n) {
 //   n = n + 1
