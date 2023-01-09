@@ -25,7 +25,7 @@ function fibonacciRecursive(n) {
   return fibonacciRecursive(n - 1) + fibonacciRecursive(n - 2)
 } // O(2^n) --> exponential time. For each element in the sequence we have an exponential increase in recursive function calls
 
-console.log(fibonacciRecursive(8))
+console.log(fibonacciRecursive(12))
 
 // There are times when recursion can keep your code DRY and potentially allow your code to be easier to understand.
 // HOWEVER, recursion will add to memory for every function call in the call stack

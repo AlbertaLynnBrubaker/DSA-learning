@@ -18,8 +18,11 @@ console.log(reverse('Hi, my name is Alie.'))
 // ANDREI'S SOLUTION
 function andreiReverse(str) {
   // check input --> Could ask a clarifying question of the interviewer to be sure our input is a string. If they give no stipulation =>
-  if(!str || str.length < 2 || typeof str !== 'string') {
+  if(!str || typeof str !== 'string') {
     return 'input must be a string!'
+  }
+  if(str.length < 2 ) {
+    return str
   }
 
   const backwards = []
