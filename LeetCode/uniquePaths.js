@@ -1,4 +1,4 @@
-const { c } = require('./helper/consoleLogHelper')
+
 
 // the robot starts at the top right corner grid[0][0] and has to end at the bottom right corner grid[m-1][n-1]
 // the robot can only move right or down
