@@ -1,4 +1,3 @@
-const { c } = require('../helper/consoleLogHelper')
 
 var isHappy = function(n) {
   const set = new Set()  
