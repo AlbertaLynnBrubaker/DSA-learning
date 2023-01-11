@@ -1,4 +1,3 @@
-const { c } = require('../helper/consoleLogHelper')
 
 var lastStoneWeight = function(stones) {
   const queue = []
