@@ -142,9 +142,12 @@ const MaxHeap = function() {
   }
 };
 
-const mh = new MinHeap()
-mh.insert(3)
-mh.insert(6)
-mh.insert(10)
-mh.insert(4)
+const mh = new MaxHeap()
+mh.insert(2)
 mh.insert(7)
+mh.insert(4)
+mh.insert(1)
+mh.insert(8)
+mh.insert(1)
+
+console.log(mh.print())
