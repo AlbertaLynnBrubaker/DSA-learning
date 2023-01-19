@@ -1,4 +1,4 @@
-const { c } = require('../helper/consoleLogHelper')
+
 
 var diameterOfBinaryTree = function(root) {
   let diameter = 0
