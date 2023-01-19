@@ -264,12 +264,12 @@ tree.insert(170)
 tree.insert(15)
 tree.insert(1)
 tree.insert(21)
-console.log(JSON.stringify(traverse(tree.root)))
+// console.log(JSON.stringify(traverse(tree.root)))
 // console.log(tree.lookup(6))
 // console.log(tree.lookup(71))
 // console.log(tree.lookup(15))
 tree.remove(20)
-console.log(JSON.stringify(traverse(tree.root)))
+// console.log(JSON.stringify(traverse(tree.root)))
 
 
 
@@ -285,4 +285,6 @@ function traverse(node) {
   return tree  
 }
 
+
+module.exports = { BinarySearchTree, Node }
 

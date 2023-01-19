@@ -1,4 +1,3 @@
-const { c } = require('./helper/consoleLogHelper')
 
 var twoSum = function(nums, target) {
   const map = new Map()
