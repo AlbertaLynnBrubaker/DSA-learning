@@ -1,4 +1,4 @@
-const { c } = require('../helper/consoleLogHelper')
+
 
 var searchBST = function(root, val) {
   if(!root) return null
