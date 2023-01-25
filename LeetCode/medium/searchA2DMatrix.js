@@ -1,4 +1,3 @@
-const { c } = require('../helper/consoleLogHelper')
 
 var searchMatrix = function(matrix, target) {
   let m = matrix.length
