@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 var decodeMessage = function(key, message) {
   const cypher = {}
