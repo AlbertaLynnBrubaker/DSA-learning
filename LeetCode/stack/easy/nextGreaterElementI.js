@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 // var nextGreaterElement = function(nums1, nums2) {
 //   return results = nums1.map(num => {
