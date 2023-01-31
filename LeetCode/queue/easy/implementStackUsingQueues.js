@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 // FUCKING POINTLESS LEETCODE PROBLEM
 
