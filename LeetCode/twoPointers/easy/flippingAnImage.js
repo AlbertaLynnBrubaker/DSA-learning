@@ -40,8 +40,8 @@ const flipAndInvert = function(array) {
     let left = array[j]
     let right = array[(len - 1) - j]
 
-    left ? left = 0 : left = 1
-    right ? right = 0 : right = 1
+    left = left ? 0 : 1
+    right = right ? 0 : 1
     
     array[j] = right
     array[(len - 1) - j] = left
