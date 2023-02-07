@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 var reversePrefix = function(word, ch) {
   word = word.split('')
