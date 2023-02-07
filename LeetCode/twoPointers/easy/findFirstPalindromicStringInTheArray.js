@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 var firstPalindrome = function(words) {
   for(let i = 0; i < words.length; i++) {
