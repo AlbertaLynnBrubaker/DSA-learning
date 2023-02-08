@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 var moveZeroes = function(nums) {
   let left = 0
