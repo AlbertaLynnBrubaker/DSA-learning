@@ -1,6 +1,6 @@
 const array = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0]
 const array2 = []
-for(let a = 0; a < 100001; a++) {
+for(let a = 0; a < 2000; a++) {
   array2.push(Math.floor(Math.random() * 100))
 }
 console.log(array2)
