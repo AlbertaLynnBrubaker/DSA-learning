@@ -96,9 +96,9 @@ class LinkedList {
 }
 
 const createList = function(array) {
-  const list = new LinkedList()
-  for(ele of array) {
-    list.append(ele)
+  const list = new LinkedList(array[0])
+  for(let i = 1; i < array.length; i++) {
+    list.append(array[i])
   }
   return list
 }
