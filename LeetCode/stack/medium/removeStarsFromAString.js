@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 // add each element to the stack that is a letter. Pop the last item off the stack for each star that comes up in the string.
 
