@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 // run a loop that takes a slice from the start index to the k value. The loop ends when the window hits the i + k. In the loop, reduce the slice to find the mean then divide by k. Return the best result.
 
