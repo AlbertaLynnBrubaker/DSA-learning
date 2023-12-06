@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 // start with two pointers at either end of the array. Calculate the area by multiplying right - left ((the width of the container)) * Math.min(height[left], height[right]) ((the height of the lowest side indicating max fill)). Move the shorter pointer one step closer while left < right. Keep a variable (largestContainer) to track largest area.
 
