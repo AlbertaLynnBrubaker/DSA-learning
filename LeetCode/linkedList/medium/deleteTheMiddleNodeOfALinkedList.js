@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 const { createList } = require('../../helper/createLinkedListFromArray')
 
 const ll = createList([1,2,3,7,4,5,6])
