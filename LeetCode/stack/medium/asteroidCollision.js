@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 var asteroidCollision = function(asteroids) {
     const stack = []
