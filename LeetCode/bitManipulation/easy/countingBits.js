@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 // for each i in an array ans length n + 1, return the number of 1s in the binary corresponding to that i number
 
