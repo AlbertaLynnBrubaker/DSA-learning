@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 // sort the potions array. Use a binary search on it... if the product of the middle value is higher than the success value, search the low half. If the new product is still higher than the success value, search the low half again.
 
