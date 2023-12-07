@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 // ASCII codes for a,e,i,o,u -> 97, 101, 105, 111, 117
 
 var maxVowels = function(s, k) {
