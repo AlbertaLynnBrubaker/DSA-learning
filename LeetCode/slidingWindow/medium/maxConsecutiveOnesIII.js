@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 // start with a left and right pointer. Count up as you move right IF the number is a 1. If it is not, subtract one from k and move right pointer. If k === 0, then the left pointer moves from the last leftmost 0 and adds one to k.
 const nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2
