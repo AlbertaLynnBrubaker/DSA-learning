@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 const nums = [1,2,3,4], k = 5
 
