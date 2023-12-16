@@ -17,7 +17,6 @@ class LinkedList {
 
   append(value) {
     const newNode = new Node(value)
-
     this.tail.next = newNode
     this.tail = newNode
     this.length++

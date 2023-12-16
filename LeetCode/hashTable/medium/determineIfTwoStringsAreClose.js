@@ -1,4 +1,4 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 
 let word1 = "abbzccca", word2 = "babzzczc"
 
