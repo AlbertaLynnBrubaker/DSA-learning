@@ -1,7 +1,7 @@
-const { c } = require('../../helper/consoleLogHelper')
+
 const { createList } = require('../../helper/createLinkedListFromArray')
 
-const list = {val:5,next:{val:4,next:{val:2,next:{val:1,next:null}}}}
+const list = createList([5,4,2,1])
 
 var pairSum = function(head) {
     // walk through the list and push the vals into a stack.
@@ -48,4 +48,4 @@ var pairSum = function(head) {
 //     return maxSum;
 // };
 
-c({res: pairSum(list)})
+c({res: pairSum(list.head)})
