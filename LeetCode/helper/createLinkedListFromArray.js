@@ -1,6 +1,6 @@
 class Node {
   constructor(value) {
-    this.value = value
+    this.val = value
     this.next = null
   }
 }
@@ -8,7 +8,7 @@ class Node {
 class LinkedList {
   constructor(value) {
     this.head = {
-      value: value,
+      val: value,
       next: null
     },
     this.tail = this.head
@@ -36,7 +36,7 @@ class LinkedList {
     const array = []
     let currentNode = this.head
     while(currentNode !== null) {
-      array.push(currentNode.value)
+      array.push(currentNode.val)
       currentNode = currentNode.next
     }
     console.log( array )
@@ -101,5 +101,9 @@ const createList = function(array) {
   }
   return list
 }
+
+const listy = createList([1,2,3,4,5])
+
+console.log(listy.head)
 
 module.exports = { createList }
